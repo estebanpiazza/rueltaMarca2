@@ -6,12 +6,12 @@ document.querySelector(".rotate").style.transform = 'rotate(' + current_rotation
 console.log(current_rotation)
 
 });
- *//*
+ */
 let seccionRuleta = document.getElementById("seccionRuleta")
 seccionRuleta.style.display ="none"
 let seccionRegistro =  document.getElementById("seccionRegistro")
 
-*/
+
 let current_rotation = 0;
 
 document.getElementById("girar").addEventListener('click', function() {
