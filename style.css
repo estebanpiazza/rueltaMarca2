@@ -1,0 +1,120 @@
+#image{
+	width: 90%;
+	margin: 0 auto;	
+}
+#ruleta {
+    text-align: center;  
+  }
+
+  .rotate {
+	transition: transform 2s  ;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+  background-color:#32cf78!important ;
+}
+
+.swal2-title{
+  color:white!important;
+  padding:0px!important;
+  font-family: 'Montserrat', sans-serif!important;
+  font-weight: bold!important;
+}
+
+#ruleta {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.centro {
+  position: absolute;
+  width: 25vw; /* o el tamaño de tu imagen del centro*/
+  height:25vw; /* o el tamaño de tu imagen del centro */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+#centroRuleta{
+  width: 23vw;
+  position:absolute;
+  top:38vh;
+  left:38.5vw;
+  z-index: 2;
+
+}
+#volver {
+  position: fixed;
+  top: -4px;
+  left: 10px;
+  
+}
+
+.feedback {
+  position: fixed;
+  background-color: #32cf78;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #46b8da;
+  bottom: 0px;
+  left: 0px;
+}
+
+.feedback2 {
+  position: fixed;
+  background-color: #32cf78;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #46b8da;
+  top: 0px;
+  left: 0px;
+}
+
+.feedback3 {
+  position: fixed;
+  background-color: #32cf78;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: #46b8da;
+  bottom: 0px;
+  left: 250px;
+}
+
+#terminar {
+  position: relative;
+  bottom: -4px;
+  left: 10px;
+}
+
+#music {
+  position: absolute;
+  bottom: -4px;
+  right: 1px;
+}
+
+
+.arrow {
+  margin: 0;
+  position: absolute;
+  right: 30vw; /* Ajusta el valor según sea necesario */
+  font-size: 200px;
+  color: orange; /* Cambiar a color naranja */
+  transform: rotate(20deg); /* Rotar 45 grados */
+  z-index: 1000;
+}
+
+body{
+  background-image: url("./space-2543838_1920.jpg");
+  background-color: black; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}
