@@ -104,17 +104,22 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
   margin: 0;
   position: absolute;
   right: 30vw; /* Ajusta el valor según sea necesario */
-  font-size: 200px;
+  font-size: 100px;
   color: orange; /* Cambiar a color naranja */
   transform: rotate(20deg); /* Rotar 45 grados */
   z-index: 1000;
 }
 
 body{
-  background-image: url("./space-2543838_1920.jpg");
+  background-image: url("./nadiia-ploshchenko-rQLY5fKHOrk-unsplash.jpg");
   background-color: black; /* Used if the image is unavailable */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  height: 100vh;
 
+}
+
+#seccionRuleta{
+  position: absolute;
+  top: 15%;
 }
