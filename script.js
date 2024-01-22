@@ -7,9 +7,11 @@ console.log(current_rotation)
 
 });
  */
-let seccionRuleta = document.getElementById("seccionRuleta")
-seccionRuleta.style.display ="none"
 let seccionRegistro =  document.getElementById("seccionRegistro")
+let seccionRuleta = document.getElementById("seccionRuleta")
+seccionRuleta.style.display ="block"
+seccionRegistro.style.display ="none"
+
 
 
 let current_rotation = 0;
