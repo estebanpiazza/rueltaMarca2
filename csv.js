@@ -1,4 +1,5 @@
-document.getElementById('terminar').addEventListener('click', function() {
+
+/*document.getElementById('terminar').addEventListener('click', function() {
     // Obtener los datos del LocalStorage
     var data = localStorage.getItem('formDataArray');
     var jsonArray = JSON.parse(data);
@@ -22,4 +23,4 @@ document.getElementById('terminar').addEventListener('click', function() {
   
     // Descargar el archivo CSV
     link.click();
-  });
+  });*/

@@ -116,10 +116,26 @@ body{
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   height: 100vh;
-
+  overflow: hidden;
 }
 
 #seccionRuleta{
   position: absolute;
   top: 15%;
+}
+
+
+
+.custom-modal {
+  margin-top: 50vh;
+  position: fixed;
+  height: 50vh!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ocultar el botón de cierre */
+.modal-header .close {
+  display: none;
 }
