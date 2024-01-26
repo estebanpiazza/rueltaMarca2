@@ -113,7 +113,7 @@ margin: 0;
 }
 
 body {
-  /*background-image: url("./RULETA\ B\ PLAY\ FINAL\ 2.jpg");*/
+  background-image: url("./RULETA\ B\ PLAY\ FINAL\ 2.jpg");
   background-color: black; /* Usado si la imagen no está disponible */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* No repetir la imagen */
@@ -145,3 +145,6 @@ margin-top: 7vh;
 .modal-header .close {
   display: none;
 }
+#ganasteModalLabel{color: black!important;}
+#seguirModalLabel{color: black!important;}
+#texto-modal{color: black!important;}

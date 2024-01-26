@@ -62,6 +62,8 @@ document.getElementById("girar").addEventListener('click', function() {
           });  */
           console.log("malo")
           $('#seguirModal').modal('toggle')
+          var audioI = new Audio('training-program-incorrect1-88736.mp3');
+audioI.play();
         }
 
     if(segment_index == 0 || segment_index == 1 || segment_index == 3 ||segment_index == 4 ||segment_index == 6 ||segment_index == 5 ||segment_index == 7 ||segment_index == 9|| segment_index == 10  || segment_index == 11 || segment_index == 12) {
@@ -73,6 +75,8 @@ document.getElementById("girar").addEventListener('click', function() {
                   });  */
                 console.log("bueno")
                   $('#ganasteModal').modal('toggle')
+                  var audioC = new Audio('correct-6033.mp3');
+audioC.play();
                 }
                   
   }, 4000); // Esperar 4 segundos, que es la duración de la animación
