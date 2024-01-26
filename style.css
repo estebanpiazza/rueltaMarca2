@@ -101,17 +101,19 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
 
 
 .arrow {
-  margin: 0;
   position: absolute;
-  right: 30vw; /* Ajusta el valor según sea necesario */
+  top:1vw;
+  right: 45vw;
+margin: 0;
+ /* right: 30vw; /* Ajusta el valor según sea necesario */
   font-size: 100px;
   color: orange; /* Cambiar a color naranja */
-  transform: rotate(20deg); /* Rotar 45 grados */
+ /*transform: rotate(20deg); /* Rotar 45 grados */
   z-index: 1000;
 }
 
 body {
-  background-image: url("./RULETA\ B\ PLAY\ FINAL\ 2.jpg");
+  /*background-image: url("./RULETA\ B\ PLAY\ FINAL\ 2.jpg");*/
   background-color: black; /* Usado si la imagen no está disponible */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* No repetir la imagen */

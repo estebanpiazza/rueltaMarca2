@@ -53,7 +53,7 @@ document.getElementById("girar").addEventListener('click', function() {
 
     // Redirigir a la URL correspondiente al segmento
     //window.location.href = urls[segment_index];
-    if(segment_index == 9 || segment_index == 3 ){
+    if(segment_index == 8 || segment_index == 2 ){
        /*  Swal.fire({
             icon: "error",
             title: "Segui participando",
@@ -64,7 +64,7 @@ document.getElementById("girar").addEventListener('click', function() {
           $('#seguirModal').modal('toggle')
         }
 
-    if(segment_index == 1 || segment_index == 2 || segment_index == 4 ||segment_index == 5 ||segment_index == 6 ||segment_index == 7 ||segment_index == 8  ||segment_index == 10 ||segment_index == 11|| segment_index == 12 ) {
+    if(segment_index == 0 || segment_index == 1 || segment_index == 3 ||segment_index == 4 ||segment_index == 6 ||segment_index == 5 ||segment_index == 7 ||segment_index == 9|| segment_index == 10  || segment_index == 11 || segment_index == 12) {
               /*   Swal.fire({
                     icon: "success",
                     title: "Ganaste",
